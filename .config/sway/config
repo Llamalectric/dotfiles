@@ -24,7 +24,7 @@ set $menu fuzzel | xargs swaymsg exec --
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg ~/Pictures/cattpuccin-bg.svg fill
+output * bg ./cattpuccin-bg.svg fill
 #
 # Example configuration:
 #
