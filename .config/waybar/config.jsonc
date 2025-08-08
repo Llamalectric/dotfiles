@@ -60,9 +60,19 @@
     },
     "clock": {
         // "timezone": "America/New_York",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
 	"format": " {:%I:%M %p}",
-        "format-alt": "{:%Y-%m-%d}"
+        "format-alt": "{:%Y-%m-%d}",
+        "calendar": {
+            "mode": "year",
+            "mode-mon-col": 3,
+            "format": {
+                "months": "<span color='#c6a0f6' size='medium'><b>{}</b></span>",
+                "weekdays": "<span color='#8aadf4'>{}</span>",
+                "days": "<span color='#8bd5ca'>{}</span>",
+                "today": "<span color='#ed8796'><b><u>{}</u></b></span>"
+            }
+        }
     },
     "backlight": {
         // "device": "acpi_video1",
@@ -77,7 +87,7 @@
             "critical": 15
         },
         "format": "{icon}",
-        "format-charging": "",
+        "format-charging": "{capacity}% ",
         "format-plugged": "",
         "format-alt": "{time} {icon}",
         "tooltip-format": "{capacity}%",

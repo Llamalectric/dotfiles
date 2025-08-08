@@ -116,6 +116,6 @@ alias grep='grep --color=auto'
 alias please='sudo $(history -p \!\!)'
 alias gm=/bin/gm
 alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
-
+export XCURSOR_PATH=${XCURSOR_PATH}:~/.local/share/icons
 # Created by `pipx` on 2024-06-30 06:41:22
 export PATH="$PATH:/home/david/.local/bin"
