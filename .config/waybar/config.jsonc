@@ -18,7 +18,6 @@
         "battery",
         "clock",
         "network",
-        "bluetooth",
         "tray"
     ],
     // Modules configuration
@@ -103,11 +102,6 @@
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "⚠",
         "format-alt": "{ifname}: {ipaddr}/{cidr}"
-    },
-    "bluetooth": {
-        "format": " ",
-        "format-connected": "",
-        "format-disabled": ""
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float

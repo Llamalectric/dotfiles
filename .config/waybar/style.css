@@ -6,7 +6,7 @@
 		"FiraMono Nerd Font",
 		/* Hebrew */
 		FiraGO,
-		"Font Awesome 6 Free",
+		"Font Awesome 7 Free",
 		monospace;
 	font-size: 1em;
 	min-height: 0;
@@ -42,7 +42,6 @@
 }
 
 #network,
-#bluetooth,
 #mpris,
 #tray,
 #backlight,
@@ -92,19 +91,10 @@
 	border-radius: 1rem;
 }
 
-tooltip #mpris {
-	background-image: url("PLACEHOLDER_URL");
-}
-
 #network {
 	color: @blue;
-	border-radius: 1rem 0rem 0rem 1rem;
-}
-
-#bluetooth {
-	color: @teal;
 	margin-right: 1rem;
-	border-radius: 0px 1rem 1rem 0px;
+	border-radius: 1rem 1rem 1rem 1rem;
 }
 
 #tray {
