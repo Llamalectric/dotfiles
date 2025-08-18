@@ -18,7 +18,6 @@
         "battery",
         "clock",
         "network",
-        "bluetooth",
         "tray"
     ],
     // Modules configuration
@@ -43,14 +42,17 @@
          "sort-by-name": true,
          "format": " {icon} ",
          "format-icons": {
-            "default": "",
+	    "default": "",
+            //"default": "",
+	    "focused": "████████",
             "urgent": ""
          },
      },
     "mpris": {
         "format": "🎤{artist} 💿{album} 🎵{title}",
+	"tooltip": false,
         "interval": 5,
-        "tooltip": false,
+        "tooltip-format": "Album Art:",
         "on-click": "playerctl play-pause",
         //"max-length": 50
     },
@@ -103,11 +105,6 @@
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "⚠",
         "format-alt": "{ifname}: {ipaddr}/{cidr}"
-    },
-    "bluetooth": {
-        "format": " ",
-        "format-connected": "",
-        "format-disabled": ""
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float

@@ -1,4 +1,4 @@
-include catppuccin-macchiato
+include gruvbox-light-soft
 # Default config for sway
 #
 # Copy this to ~/.config/sway/config and edit it to your liking.
@@ -229,13 +229,13 @@ bindsym $mod+Ctrl+e exec bemoji -tn
 seat seat0 xcursor_theme Catppuccin-Macchiato-Green-Cursors 32
 
 # Colors
-# target                 title     bg    text   indicator  border
-client.focused           $lavender $base $text  $rosewater $lavender
-client.focused_inactive  $overlay0 $base $text  $rosewater $overlay0
-client.unfocused         $overlay0 $base $text  $rosewater $overlay0
-client.urgent            $peach    $base $peach $overlay0  $peach
-client.placeholder       $overlay0 $base $text  $overlay0  $overlay0
-client.background        $base
+# target                 title     bg    text    indicator  border
+client.focused           $blue     $bg   $text   $aqua      $blue
+client.focused_inactive  $gray     $bg   $text   $aqua      $gray
+client.unfocused         $gray     $bg   $text   $aqua      $gray
+client.urgent            $orange   $bg   $orange $gray      $orange
+client.placeholder       $gray     $bg   $text   $gray      $gray
+client.background        $bg
 
 blur enable
 blur_xray disable
