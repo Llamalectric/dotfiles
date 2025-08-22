@@ -23,6 +23,7 @@
 	margin: 5px;
 	background-color: ghostwhite;
 	margin-left: 1rem;
+	font-size: 75%;
 }
 
 #workspaces button {
@@ -33,7 +34,6 @@
 
 #workspaces button.focused {
 	color: @gray;
-	border-radius: 1rem;
 }
 
 #workspaces button:hover {
